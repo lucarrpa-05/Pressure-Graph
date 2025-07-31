@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Data files
+Data/
+*.parquet
+*.csv
+!requirements.txt
+
+# Outputs (generated files)
+outputs/
+*.json
+!Data/sample.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
